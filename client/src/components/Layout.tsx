@@ -2,7 +2,7 @@ import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 
 const navLinks = [
-  { to: '/', label: 'Events' },
+  { to: '/events', label: 'Events' },
   { to: '/create', label: 'Create Event' },
 ];
 

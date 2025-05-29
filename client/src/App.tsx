@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import CreateEventPage from './pages/CreateEventPage';
 import EventDetailPage from './pages/EventDetailPage';
@@ -17,10 +17,13 @@ function App() {
           <Route path="/create" element={<CreateEventPage />} />
           <Route path="/event/:id" element={<EventDetailPage />} />
           <Route path="/event/:id/add-outfit" element={<AddOutfitPage />} />
+          {/* Fallback route for any unmatched routes */}
+          <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </Layout>
     </Router>
   );
 }
+
 
 export default App;
