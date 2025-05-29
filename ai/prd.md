@@ -82,6 +82,7 @@ The project should be organized into three root-level folders:
 - [ ] Integrate Firebase Auth
 - [x] Tailwind CSS for UI
 - [ ] Pages:
+  - [ ] Landing Page
   - [x] Home / event feed
   - [x] Create event
   - [x] Event detail (with outfits)
