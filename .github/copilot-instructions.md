@@ -9,8 +9,7 @@ The codebase is organized into three root-level folders:
 /client – React frontend (Vite + Tailwind)
 /backend – Node.js backend (Express)
 /database – Prisma schema and migration files
-
-
+  - **Note:** The `/database/generated/prisma` folder contains the generated Prisma client code. Always import and use this generated client in the backend API for database access to ensure type safety and up-to-date models.
 
 ---
 

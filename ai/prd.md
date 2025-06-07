@@ -25,12 +25,12 @@ The project should be organized into three root-level folders:
 
 ### 🗓 Event Management
 - [ ] Build Event model in Prisma
-- [ ] `GET /events`: List public events
-- [ ] `GET /events/:id`: Event details (title, date, outfits, etc.)
-- [ ] `POST /events`: Create new event
+- [x] `GET /events`: List public events
+- [x] `GET /events/:id`: Event details (title, date, outfits, etc.)
+- [x] `POST /events`: Create new event
 - [ ] Add `isPrivate` boolean toggle
-- [ ] `POST /events/:id/invite`: Generate shareable invite link
-- [ ] `PATCH /events/:id`: Edit event (owner only)
+- [x] `POST /events/:id/invite`: Generate shareable invite link
+- [x] `PATCH /events/:id`: Edit event (owner only)
 - [ ] UI: Create event form
 - [ ] UI: Event list and detail page
 
