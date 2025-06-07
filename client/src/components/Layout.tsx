@@ -37,7 +37,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
           </div>
         </div>
       </header>
-      <main className="flex-1 w-full py-8 px-4">{children}</main>
+      <main className="flex-1 w-full">{children}</main>
     </div>
   );
 };
